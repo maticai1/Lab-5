@@ -21,7 +21,7 @@ function updateBatteryStatus(battery) {
     chargeMeter.value = batteryPercentage;
 
     
-    batteryImage.src = `https://robohash.org/${batteryPercentage}.png`;
+    batteryImage.src = `https://robohash.org/100percent.png`;
 }
 
 navigator.getBattery().then(battery => {
